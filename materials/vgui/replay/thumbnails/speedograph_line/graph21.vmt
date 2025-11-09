@@ -43,15 +43,6 @@
 	"$bucket20"		"0"
 
 	"$bucket21"		"0"
-	"$bucket22"		"0"
-	"$bucket23"		"0"
-	"$bucket24"		"0"
-	"$bucket25"		"0"
-	"$bucket26"		"0"
-	"$bucket27"		"0"
-	"$bucket28"		"0"
-	"$bucket29"		"0"
-	"$bucket30"		"0"
 
 	"$timeDelay"		"0"
 	"$timeDelayTemp"	"0"
@@ -76,78 +67,6 @@
 			resultVar	"$timeDelayTemp"
 		}
 		
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket30"
-			greaterVar		"$bucket30"
-			lessEqualVar	"$bucket29"
-		}		
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket29"
-			greaterVar		"$bucket29"
-			lessEqualVar	"$bucket28"
-		}	
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket28"
-			greaterVar		"$bucket28"
-			lessEqualVar	"$bucket27"
-		}
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket27"
-			greaterVar		"$bucket27"
-			lessEqualVar	"$bucket26"
-		}
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket26"
-			greaterVar		"$bucket26"
-			lessEqualVar	"$bucket25"
-		}
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket25"
-			greaterVar		"$bucket25"
-			lessEqualVar	"$bucket24"
-		}
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket24"
-			greaterVar		"$bucket24"
-			lessEqualVar	"$bucket23"
-		}
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket23"
-			greaterVar		"$bucket23"
-			lessEqualVar	"$bucket22"
-		}
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket22"
-			greaterVar		"$bucket22"
-			lessEqualVar	"$bucket21"
-		}
 		LessOrEqual
 		{
 			srcVar1			"$timeDelay"

@@ -29,7 +29,6 @@
 	"$bucket07"		"0"
 	"$bucket08"		"0"
 	"$bucket09"		"0"
-	"$bucket10"		"0"
 
 	"$timeDelay"		"0"
 	"$timeDelayTemp"	"0"
@@ -54,14 +53,6 @@
 			resultVar	"$timeDelayTemp"
 		}
 		
-		LessOrEqual
-		{
-			srcVar1			"$timeDelay"
-			srcVar2			"$time"
-			resultVar		"$bucket10"
-			greaterVar		"$bucket10"
-			lessEqualVar	"$bucket09"
-		}		
 		LessOrEqual
 		{
 			srcVar1			"$timeDelay"
